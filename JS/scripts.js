@@ -1,5 +1,12 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+// MODAL
+    const form = document.getElementById("consultForm");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        console.log("Form submitted!");
+    });
 
 // Project Section
 document.addEventListener("DOMContentLoaded", function () {
